@@ -11,8 +11,8 @@ class Program{
             Conditia care trebuie indeplinita este 
                 sB/b = sC/c
             <=> (s - sB) / (l - b) = sB/b
-            <=> s * (l - b) = (s - sB) * b
-            <=> l*s - b*s = b*s - b*sB
+            <=> sB * (l - b) = (s - sB) * b
+            <=> l*sB - b*sB = b*s - b*sB
             <=> sB = b * s / l
 
             Deci, daca putem gasi lungimile subarray-urilor astfel incat suma elementelor dintr-unul inmultita cu lungimea sa sa fie divizibila cu lungimea array-ului initial,
